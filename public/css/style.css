@@ -1,0 +1,413 @@
+
+
+
+/* Remove border from toggler */
+.navbar-toggler {
+    border: 0 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+/* Lines of the Toggler */
+.toggler-icon{
+    width: 30px;
+    height: 3px;
+    background-color: #e74c3c;
+    display: block;
+    transition: all 0.2s;
+}
+
+/* Adds Space between the lines */
+.middle-bar{
+    margin: 5px auto;
+}
+
+/* State when navbar is opened (START) */
+.navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+/* State when navbar is opened (END) */
+
+/* State when navbar is collapsed (START) */
+.navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+}
+/* State when navbar is collapsed (END) */
+
+/* Color of Toggler when collapsed */
+.navbar-toggler.collapsed .toggler-icon {
+    background-color: #777777;
+}
+
+
+
+
+
+/* end navbar  */
+
+.navlogo{
+    width: 200px;
+}
+.navbarbg  {
+    background-color: #FDF2EC;
+    
+}
+
+.textcolor{
+    color: #000;
+}
+.button_navbar{
+    border-radius: 5px;
+}
+.btn_para{
+    font-size: 13px;
+    margin-top: 20px;
+    border: 1px solid lightgrey;
+}
+
+.para1{
+    font-size: 70px;
+    font-weight: 600;
+}
+.para2{
+    text-align: center;
+}
+.para3{
+    color: #FE8162;
+}
+.para4{
+    font-size: 20px;
+}
+.para5{
+    font-size: 16px;
+}
+.para6{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.icon1{
+    font-size: 24px;
+    color: #000;
+}
+
+.btn1{
+    width: 240px;
+    padding: 13px;
+    border-radius: 11px;
+    border: 1px solid grey;
+}
+.setion1{
+    background-color: #FEF4EE;
+   padding-bottom: 50px;
+   height: 500px;
+}
+
+
+.discover_product_div1{
+    background-color: #EDEDFA;
+    padding: 65px;
+    border-radius: 12px;
+    height: 395px;
+}
+
+.starticon{
+    font-size: 35px;
+}
+.discover_product_div2{
+    border-radius: 25px;
+}
+.para7{
+    margin-left: 35px;
+}
+.para8{
+    color: grey;
+    margin-left: 35px;
+}
+.para9{
+    color: grey;
+    font-size: 17px;
+    font-weight: 600;
+}
+.discover_product_card1{
+    border-radius: 25px;
+
+}
+.discover_product_card1 img{
+    height: 320px;
+}
+.discover_product_div3{
+    margin-top: 50px;
+}
+
+.para10{
+    color: grey;
+}
+.para11{
+    color: #e74c3c;
+}
+
+.need_answer{
+    margin-top: 100px;
+    margin-bottom: 130px;
+}
+.para12{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.testimonial_card{
+    border-radius: 25px;
+   
+}
+.para14 {
+    color: grey;
+}
+
+.para18{
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+
+
+/* start button css */
+
+
+
+
+
+
+.button_hover span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button_hover span:after {
+    content: '';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button_hover:hover span {
+    padding-right: 25px;
+  }
+  
+  .button_hover:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+/* end button css */
+
+
+.para15{
+    
+        color: grey;
+        font-size: 19px;
+        font-weight: 600;
+    
+}
+.button1{
+    background-color: #8247FF;
+    color: #fff;
+}
+.para16{
+    color:#8247FF
+}
+.button2{
+    width: 250px;
+    border: 1px solid lightgrey;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    
+}
+.happy_customer{
+    border-radius: 25px;
+    margin-top: 80px;
+}
+
+ul{
+    list-style: none;
+
+}
+.footer1 ul li{
+    font-weight:600;
+    margin-top: 10px;
+}
+.footer1{
+    margin-top: 150px;
+}
+.footer2{
+    margin-bottom: 150px;
+}
+.social_icon{
+    width: 28px;
+}
+.social_icon1{
+    width: 40px;
+    
+}
+.mainsection{
+    background-color: #FDF2ED;
+    
+}
+.para17{
+    font-weight: 600;
+}
+
+
+
+
+#appimg{
+    width: 70px;
+    height: 70px;
+}
+#appimg2{
+    width: 70px;
+    height: 70px;
+    margin-top: 100px;
+}
+#appimg3{
+    width: 70px;
+    height: 70px;
+    margin-top: 100px;
+}
+
+#appimg4{
+    width: 90px;
+    height: 60px;
+    margin-top: 250px;
+}
+
+#appimg6{
+    width: 80px;
+    height: 70px;
+    margin-top: 110px;
+}
+#appimg7{
+    width: 120px;
+    height: 100px;
+    margin-top: 0px;
+}
+
+#appimg11{
+    width: 120px;
+    height: 80px;
+}
+
+#appimg12{
+    width: 80px;
+    height: 80px;
+    margin-top: 150px;
+}
+
+#appimg13{
+    width: 150px;
+    height: 150px;
+    margin-top: 180px;
+}
+
+
+#appimg14{
+    width: 80px;
+    height: 80px;
+    margin-top:40px;
+}
+
+
+
+
+
+.discover_product_div22{
+    height: 400px;
+    border-radius: 25px;
+}
+
+  
+@media only screen and (max-width: 430px) {
+    #discover_section_main{
+    margin-top: 300px !important;
+}
+    #testimonials{
+        margin-top: 900px !important;
+        margin-bottom: 200px !important;
+    }
+    #testimonials_div1{
+        margin-top: 500px !important;
+
+    }
+    #discover_section_main{
+        margin-top: 300px !important;
+        margin-bottom: 300px !important;
+    }
+    .imagesection1{
+       margin-top: 50px !important;
+        margin-bottom: 100px !important;
+    }
+    .para18{
+        font-size: 35px;
+    }
+    .para1{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .para4{
+        font-size: 15px;
+        text-align: center;
+    }
+    .productivity h1{
+        font-size: 25px !important;
+        text-align: center;
+    }
+  }
+
+
+  html {
+    scroll-behavior: smooth;
+  }
+ 

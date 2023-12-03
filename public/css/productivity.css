@@ -1,0 +1,213 @@
+
+.productivity{
+    background: rgb(28, 28, 28);
+    width: 100%;
+    height: 1556px;
+   
+}
+
+.productivity span {
+    color: rgb(254, 129, 98);
+}
+
+.productivity h1{
+    color:  rgb(253, 242, 236);
+    font-size: 50px;
+}
+
+.productivity .headp{
+    color: rgb(118, 117, 117);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.productivity .card{
+    background: rgb(33, 33, 33);
+    border-color: rgba(255, 255, 255, 0.03);
+    border-radius: 30px;
+    padding: 50px 30px 60px;
+    gap: 20px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.productivity h3{
+    color: rgb(253, 242, 236);
+}
+
+.productivity p{
+    color: rgb(118, 117, 117);
+}
+
+.productivity img{
+    width: 40px;
+    height: 40px;
+}
+
+.productivity .imgdiv{
+    background: rgb(130, 71, 255);
+    width: 50px;
+    height: 50px;
+    padding: 5px 10px 10px 5px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+
+.price{
+    background: #fff;
+    width: 100%;
+    height: 800px;
+}
+
+.price h1 span {
+    color: rgb(254, 129, 98);
+}
+
+.price h1{
+    color: #000;
+    font-size: 50px;
+    text-align: center;
+}
+
+.price .headp{
+    color: rgb(118, 117, 117);
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.price .pricecard{
+    background: #EDEDFA;
+    border-color: #EDEDFA;
+    border-radius: 30px;
+    gap: 15px;
+}
+
+.price .pricecard span{
+    font-size: 56px;
+    font-weight: 500;
+}
+
+.price .pricecard .card-title{  
+    font-weight: 500;    
+    margin-left: 25px;
+}
+
+.price .pricecard ul{
+    list-style-type: none;
+}
+
+.price .pricecard li{
+    color: rgb(125 124 125);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-top: 10px;
+}
+
+.price .pricecard li img{
+    width: 20px;
+    height: 20px;
+}
+
+.price .pricecard .label1{
+    background: #fff;
+    color: rgb(254, 129, 98);
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 8px;
+    border-color: #fff;
+    padding: 7px;
+    letter-spacing: 0.08em;
+    margin-left: 20px;
+}
+
+.price .pricecard .b2{
+    margin-top: 100px!important;
+}
+
+.price .pricecard .b3{
+    margin-top: 35px!important;
+}
+
+.price .pricecard .button{
+    background: #fff;
+    border-color: #fff;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    width: 150px;
+    padding: 10px 20px;
+    border-radius: 12px;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.price .special{
+    background: rgb(28, 28, 28);
+}
+
+.special .card-title{
+    color: #fff;
+}
+
+.special .button{
+    background: rgb(130, 71, 255)!important;
+    color: #fff!important;
+}
+
+@media only screen and (max-width: 770px) {
+    .productivity{
+        height: auto;
+    }
+    
+  }
+
+@media only screen and (max-width: 430px) {
+    .productivity{
+        height: auto;
+    }
+    .mob{
+        margin-left: 50px;
+    }
+    
+  }
+
+@media only screen and (max-width: 380px) {
+    .mob{
+        margin-left: 30px;
+    }
+   
+  }
+
+@media only screen and (max-width: 325px) {
+    .mob{
+        margin-left: 5px;
+    }
+  }
+
+@media only screen and (min-width: 1030px) {
+    .productivity .card{
+        width: 386px!important;
+        height: 374px;
+    }
+    .price .card{
+        width: 386px!important;
+        height: 450px;
+    }
+  }
+
+
+
+
+  .productivity{
+    margin-top: 100px;
+  }
+
+.productivity_second_row{
+    margin-top: 100px;
+}
